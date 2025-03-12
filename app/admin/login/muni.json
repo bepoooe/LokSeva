@@ -1,0 +1,770 @@
+[
+    {
+      "id": "1",
+      "name": "Alipurduar",
+      "username": "alipurduar_admin",
+      "password": "alipurduar@123"
+    },
+    {
+      "id": "2",
+      "name": "Arambagh",
+      "username": "arambagh_admin",
+      "password": "arambagh@123"
+    },
+    {
+      "id": "3",
+      "name": "Asansol Municipal Corporation",
+      "username": "asansol_admin",
+      "password": "asansol@123"
+    },
+    {
+      "id": "4",
+      "name": "Ashokenagar-Kalyangarh",
+      "username": "ashokenagar_admin",
+      "password": "ashokenagar@123"
+    },
+    {
+      "id": "5",
+      "name": "Baduria",
+      "username": "baduria_admin",
+      "password": "baduria@123"
+    },
+    {
+      "id": "6",
+      "name": "Baidyabati",
+      "username": "baidyabati_admin",
+      "password": "baidyabati@123"
+    },
+    {
+      "id": "7",
+      "name": "Bally",
+      "username": "bally_admin",
+      "password": "bally@123"
+    },
+    {
+      "id": "8",
+      "name": "Balurghat",
+      "username": "balurghat_admin",
+      "password": "balurghat@123"
+    },
+    {
+      "id": "9",
+      "name": "Bankura",
+      "username": "bankura_admin",
+      "password": "bankura@123"
+    },
+    {
+      "id": "10",
+      "name": "Bansberia",
+      "username": "bansberia_admin",
+      "password": "bansberia@123"
+    },
+    {
+      "id": "11",
+      "name": "Baranagar",
+      "username": "baranagar_admin",
+      "password": "baranagar@123"
+    },
+    {
+      "id": "12",
+      "name": "Barasat",
+      "username": "barasat_admin",
+      "password": "barasat@123"
+    },
+    {
+      "id": "13",
+      "name": "Barrackpore",
+      "username": "barrackpore_admin",
+      "password": "barrackpore@123"
+    },
+    {
+      "id": "14",
+      "name": "Baruipur",
+      "username": "baruipur_admin",
+      "password": "baruipur@123"
+    },
+    {
+      "id": "15",
+      "name": "Basirhat",
+      "username": "basirhat_admin",
+      "password": "basirhat@123"
+    },
+    {
+      "id": "16",
+      "name": "Beldanga",
+      "username": "beldanga_admin",
+      "password": "beldanga@123"
+    },
+    {
+      "id": "17",
+      "name": "Berhampore",
+      "username": "berhampore_admin",
+      "password": "berhampore@123"
+    },
+    {
+      "id": "18",
+      "name": "Bhadreswar",
+      "username": "bhadreswar_admin",
+      "password": "bhadreswar@123"
+    },
+    {
+      "id": "19",
+      "name": "Bhatpara",
+      "username": "bhatpara_admin",
+      "password": "bhatpara@123"
+    },
+    {
+      "id": "20",
+      "name": "Bidhannagar",
+      "username": "bidhannagar_admin",
+      "password": "bidhannagar@123"
+    },
+    {
+      "id": "21",
+      "name": "Birnagar",
+      "username": "birnagar_admin",
+      "password": "birnagar@123"
+    },
+    {
+      "id": "22",
+      "name": "Bishnupur",
+      "username": "bishnupur_admin",
+      "password": "bishnupur@123"
+    },
+    {
+      "id": "23",
+      "name": "Bolpur",
+      "username": "bolpur_admin",
+      "password": "bolpur@123"
+    },
+    {
+      "id": "24",
+      "name": "Bongaon",
+      "username": "bongaon_admin",
+      "password": "bongaon@123"
+    },
+    {
+      "id": "25",
+      "name": "Budge Budge",
+      "username": "budge_budge_admin",
+      "password": "budge_budge@123"
+    },
+    {
+      "id": "26",
+      "name": "Buniadpur",
+      "username": "buniadpur_admin",
+      "password": "buniadpur@123"
+    },
+    {
+      "id": "27",
+      "name": "Burdwan",
+      "username": "burdwan_admin",
+      "password": "burdwan@123"
+    },
+    {
+      "id": "28",
+      "name": "Chakdah",
+      "username": "chakdah_admin",
+      "password": "chakdah@123"
+    },
+    {
+      "id": "29",
+      "name": "Champdany",
+      "username": "champdany_admin",
+      "password": "champdany@123"
+    },
+    {
+      "id": "30",
+      "name": "Chandannagar",
+      "username": "chandannagar_admin",
+      "password": "chandannagar@123"
+    },
+    {
+      "id": "31",
+      "name": "Chandrakona",
+      "username": "chandrakona_admin",
+      "password": "chandrakona@123"
+    },
+    {
+      "id": "32",
+      "name": "Contai",
+      "username": "contai_admin",
+      "password": "contai@123"
+    },
+    {
+      "id": "33",
+      "name": "Cooch Behar",
+      "username": "cooch_behar_admin",
+      "password": "cooch_behar@123"
+    },
+    {
+      "id": "34",
+      "name": "Coopers Camp",
+      "username": "coopers_camp_admin",
+      "password": "coopers_camp@123"
+    },
+    {
+      "id": "35",
+      "name": "DAINHAT",
+      "username": "dainhat_admin",
+      "password": "dainhat@123"
+    },
+    {
+      "id": "36",
+      "name": "Dalkhola",
+      "username": "dalkhola_admin",
+      "password": "dalkhola@123"
+    },
+    {
+      "id": "37",
+      "name": "Dankuni",
+      "username": "dankuni_admin",
+      "password": "dankuni@123"
+    },
+    {
+      "id": "38",
+      "name": "Darjeeling",
+      "username": "darjeeling_admin",
+      "password": "darjeeling@123"
+    },
+    {
+      "id": "39",
+      "name": "DHULIYAN MUNICIPALITY",
+      "username": "dhuliyan_admin",
+      "password": "dhuliyan@123"
+    },
+    {
+      "id": "40",
+      "name": "Dhupguri",
+      "username": "dhupguri_admin",
+      "password": "dhupguri@123"
+    },
+    {
+      "id": "41",
+      "name": "Diamond Harbour",
+      "username": "diamond_harbour_admin",
+      "password": "diamond_harbour@123"
+    },
+    {
+      "id": "42",
+      "name": "Dinhata",
+      "username": "dinhata_admin",
+      "password": "dinhata@123"
+    },
+    {
+      "id": "43",
+      "name": "Domkal",
+      "username": "domkal_admin",
+      "password": "domkal@123"
+    },
+    {
+      "id": "44",
+      "name": "Dubrajpur",
+      "username": "dubrajpur_admin",
+      "password": "dubrajpur@123"
+    },
+    {
+      "id": "45",
+      "name": "Dum Dum",
+      "username": "dum_dum_admin",
+      "password": "dum_dum@123"
+    },
+    {
+      "id": "46",
+      "name": "Durgapur",
+      "username": "durgapur_admin",
+      "password": "durgapur@123"
+    },
+    {
+      "id": "47",
+      "name": "Egra",
+      "username": "egra_admin",
+      "password": "egra@123"
+    },
+    {
+      "id": "48",
+      "name": "Englishbazar",
+      "username": "englishbazar_admin",
+      "password": "englishbazar@123"
+    },
+    {
+      "id": "49",
+      "name": "Falakata",
+      "username": "falakata_admin",
+      "password": "falakata@123"
+    },
+    {
+      "id": "50",
+      "name": "Gangarampur",
+      "username": "gangarampur_admin",
+      "password": "gangarampur@123"
+    },
+    {
+      "id": "51",
+      "name": "Garulia",
+      "username": "garulia_admin",
+      "password": "garulia@123"
+    },
+    {
+      "id": "52",
+      "name": "Gayeshpur",
+      "username": "gayeshpur_admin",
+      "password": "gayeshpur@123"
+    },
+    {
+      "id": "53",
+      "name": "Ghatal",
+      "username": "ghatal_admin",
+      "password": "ghatal@123"
+    },
+    {
+      "id": "54",
+      "name": "Gobardanga",
+      "username": "gobardanga_admin",
+      "password": "gobardanga@123"
+    },
+    {
+      "id": "55",
+      "name": "Guskara",
+      "username": "guskara_admin",
+      "password": "guskara@123"
+    },
+    {
+      "id": "56",
+      "name": "Habra",
+      "username": "habra_admin",
+      "password": "habra@123"
+    },
+    {
+      "id": "57",
+      "name": "Haldia",
+      "username": "haldia_admin",
+      "password": "haldia@123"
+    },
+    {
+      "id": "58",
+      "name": "Haldibari",
+      "username": "haldibari_admin",
+      "password": "haldibari@123"
+    },
+    {
+      "id": "59",
+      "name": "Halisahar",
+      "username": "halisahar_admin",
+      "password": "halisahar@123"
+    },
+    {
+      "id": "60",
+      "name": "Haringhata",
+      "username": "haringhata_admin",
+      "password": "haringhata@123"
+    },
+    {
+      "id": "61",
+      "name": "Hoogly Chinsurah",
+      "username": "hoogly_chinsurah_admin",
+      "password": "hoogly_chinsurah@123"
+    },
+    {
+      "id": "62",
+      "name": "Howrah Municipal Corporation",
+      "username": "howrah_admin",
+      "password": "howrah@123"
+    },
+    {
+      "id": "63",
+      "name": "Islampur",
+      "username": "islampur_admin",
+      "password": "islampur@123"
+    },
+    {
+      "id": "64",
+      "name": "Jalpaiguri",
+      "username": "jalpaiguri_admin",
+      "password": "jalpaiguri@123"
+    },
+    {
+      "id": "65",
+      "name": "Jangipur",
+      "username": "jangipur_admin",
+      "password": "jangipur@123"
+    },
+    {
+      "id": "66",
+      "name": "Jhalda",
+      "username": "jhalda_admin",
+      "password": "jhalda@123"
+    },
+    {
+      "id": "67",
+      "name": "Jhargram",
+      "username": "jhargram_admin",
+      "password": "jhargram@123"
+    },
+    {
+      "id": "68",
+      "name": "Jiaganj Azimganj",
+      "username": "jiaganj_azimganj_admin",
+      "password": "jiaganj_azimganj@123"
+    },
+    {
+      "id": "69",
+      "name": "Joynagar-Mazilpur",
+      "username": "joynagar_mazilpur_admin",
+      "password": "joynagar_mazilpur@123"
+    },
+    {
+      "id": "70",
+      "name": "Kalimpong",
+      "username": "kalimpong_admin",
+      "password": "kalimpong@123"
+    },
+    {
+      "id": "71",
+      "name": "Kaliyaganj",
+      "username": "kaliyaganj_admin",
+      "password": "kaliyaganj@123"
+    },
+    {
+      "id": "72",
+      "name": "Kalna",
+      "username": "kalna_admin",
+      "password": "kalna@123"
+    },
+    {
+      "id": "73",
+      "name": "Kalyani",
+      "username": "kalyani_admin",
+      "password": "kalyani@123"
+    },
+    {
+      "id": "74",
+      "name": "Kamarhati",
+      "username": "kamarhati_admin",
+      "password": "kamarhati@123"
+    },
+    {
+      "id": "75",
+      "name": "Kanchrapara",
+      "username": "kanchrapara_admin",
+      "password": "kanchrapara@123"
+    },
+    {
+      "id": "76",
+      "name": "Kandi",
+      "username": "kandi_admin",
+      "password": "kandi@123"
+    },
+    {
+      "id": "77",
+      "name": "Katwa",
+      "username": "katwa_admin",
+      "password": "katwa@123"
+    },
+    {
+      "id": "78",
+      "name": "Kharagpur",
+      "username": "kharagpur_admin",
+      "password": "kharagpur@123"
+    },
+    {
+      "id": "79",
+      "name": "Kharar",
+      "username": "kharar_admin",
+      "password": "kharar@123"
+    },
+    {
+      "id": "80",
+      "name": "KHARDAH MUNICIPALITY",
+      "username": "khardah_admin",
+      "password": "khardah@123"
+    },
+    {
+      "id": "81",
+      "name": "Khirpai",
+      "username": "khirpai_admin",
+      "password": "khirpai@123"
+    },
+    {
+      "id": "82",
+      "name": "Kolkata",
+      "username": "kolkata_admin",
+      "password": "kolkata@123"
+    },
+    {
+      "id": "83",
+      "name": "Konnagar",
+      "username": "konnagar_admin",
+      "password": "konnagar@123"
+    },
+    {
+      "id": "84",
+      "name": "Krishnanagar Municipality",
+      "username": "krishnanagar_admin",
+      "password": "krishnanagar@123"
+    },
+    {
+      "id": "85",
+      "name": "Kurseong",
+      "username": "kurseong_admin",
+      "password": "kurseong@123"
+    },
+    {
+      "id": "86",
+      "name": "Madhyamgram",
+      "username": "madhyamgram_admin",
+      "password": "madhyamgram@123"
+    },
+    {
+      "id": "87",
+      "name": "Maheshtala",
+      "username": "maheshtala_admin",
+      "password": "maheshtala@123"
+    },
+    {
+      "id": "88",
+      "name": "Mal",
+      "username": "mal_admin",
+      "password": "mal@123"
+    },
+    {
+      "id": "89",
+      "name": "Mathabhanga",
+      "username": "mathabhanga_admin",
+      "password": "mathabhanga@123"
+    },
+    {
+      "id": "90",
+      "name": "Maynaguri Municipality",
+      "username": "maynaguri_admin",
+      "password": "maynaguri@123"
+    },
+    {
+      "id": "91",
+      "name": "Mekhliganj",
+      "username": "mekhliganj_admin",
+      "password": "mekhliganj@123"
+    },
+    {
+      "id": "92",
+      "name": "Memari",
+      "username": "memari_admin",
+      "password": "memari@123"
+    },
+    {
+      "id": "93",
+      "name": "Midnapore",
+      "username": "midnapore_admin",
+      "password": "midnapore@123"
+    },
+    {
+      "id": "94",
+      "name": "Mirik",
+      "username": "mirik_admin",
+      "password": "mirik@123"
+    },
+    {
+      "id": "95",
+      "name": "Murshidabad",
+      "username": "murshidabad_admin",
+      "password": "murshidabad@123"
+    },
+    {
+      "id": "96",
+      "name": "Nabadwip",
+      "username": "nabadwip_admin",
+      "password": "nabadwip@123"
+    },
+    {
+      "id": "97",
+      "name": "Naihati",
+      "username": "naihati_admin",
+      "password": "naihati@123"
+    },
+    {
+      "id": "98",
+      "name": "Nalhati",
+      "username": "nalhati_admin",
+      "password": "nalhati@123"
+    },
+    {
+      "id": "99",
+      "name": "New Barrackpore",
+      "username": "new_barrackpore_admin",
+      "password": "new_barrackpore@123"
+    },
+    {
+      "id": "100",
+      "name": "North Barrackpore Municipality",
+      "username": "north_barrackpore_admin",
+      "password": "north_barrackpore@123"
+    },
+    {
+      "id": "101",
+      "name": "North Dum Dum",
+      "username": "north_dum_dum_admin",
+      "password": "north_dum_dum@123"
+    },
+    {
+      "id": "102",
+      "name": "Old Malda",
+      "username": "old_malda_admin",
+      "password": "old_malda@123"
+    },
+    {
+      "id": "103",
+      "name": "Panihati",
+      "username": "panihati_admin",
+      "password": "panihati@123"
+    },
+    {
+      "id": "104",
+      "name": "Panskura",
+      "username": "panskura_admin",
+      "password": "panskura@123"
+    },
+    {
+      "id": "105",
+      "name": "Pujali",
+      "username": "pujali_admin",
+      "password": "pujali@123"
+    },
+    {
+      "id": "106",
+      "name": "Purulia",
+      "username": "purulia_admin",
+      "password": "purulia@123"
+    },
+    {
+      "id": "107",
+      "name": "RAGHUNATHPUR MUNICIPALITY",
+      "username": "raghunathpur_admin",
+      "password": "raghunathpur@123"
+    },
+    {
+      "id": "108",
+      "name": "Raiganj",
+      "username": "raiganj_admin",
+      "password": "raiganj@123"
+    },
+    {
+      "id": "109",
+      "name": "Rajpur Sonarpur",
+      "username": "rajpur_sonarpur_admin",
+      "password": "rajpur_sonarpur@123"
+    },
+    {
+      "id": "110",
+      "name": "Ramjibanpur",
+      "username": "ramjibanpur_admin",
+      "password": "ramjibanpur@123"
+    },
+    {
+      "id": "111",
+      "name": "Rampurhat",
+      "username": "rampurhat_admin",
+      "password": "rampurhat@123"
+    },
+    {
+      "id": "112",
+      "name": "Ranaghat",
+      "username": "ranaghat_admin",
+      "password": "ranaghat@123"
+    },
+    {
+      "id": "113",
+      "name": "Rishra",
+      "username": "rishra_admin",
+      "password": "rishra@123"
+    },
+    {
+      "id": "114",
+      "name": "Sainthia",
+      "username": "sainthia_admin",
+      "password": "sainthia@123"
+    },
+    {
+      "id": "115",
+      "name": "Santipur",
+      "username": "santipur_admin",
+      "password": "santipur@123"
+    },
+    {
+      "id": "116",
+      "name": "Serampore",
+      "username": "serampore_admin",
+      "password": "serampore@123"
+    },
+    {
+      "id": "117",
+      "name": "Siliguri",
+      "username": "siliguri_admin",
+      "password": "siliguri@123"
+    },
+    {
+      "id": "118",
+      "name": "Sonamukhi",
+      "username": "sonamukhi_admin",
+      "password": "sonamukhi@123"
+    },
+    {
+      "id": "119",
+      "name": "South Dum Dum",
+      "username": "south_dum_dum_admin",
+      "password": "south_dum_dum@123"
+    },
+    {
+      "id": "120",
+      "name": "Suri",
+      "username": "suri_admin",
+      "password": "suri@123"
+    },
+    {
+      "id": "121",
+      "name": "Taherpur",
+      "username": "taherpur_admin",
+      "password": "taherpur@123"
+    },
+    {
+      "id": "122",
+      "name": "Taki",
+      "username": "taki_admin",
+      "password": "taki@123"
+    },
+    {
+      "id": "123",
+      "name": "Tamralipta",
+      "username": "tamralipta_admin",
+      "password": "tamralipta@123"
+    },
+    {
+      "id": "124",
+      "name": "Tarakeshwar",
+      "username": "tarakeshwar_admin",
+      "password": "tarakeshwar@123"
+    },
+    {
+      "id": "125",
+      "name": "Titagarh",
+      "username": "titagarh_admin",
+      "password": "titagarh@123"
+    },
+    {
+      "id": "126",
+      "name": "Tufanganj",
+      "username": "tufanganj_admin",
+      "password": "tufanganj@123"
+    },
+    {
+      "id": "127",
+      "name": "Uluberia",
+      "username": "uluberia_admin",
+      "password": "uluberia@123"
+    },
+    {
+      "id": "128",
+      "name": "Uttarpara Kotrung",
+      "username": "uttarpara_kotrung_admin",
+      "password": "uttarpara_kotrung@123"
+    }
+  ]

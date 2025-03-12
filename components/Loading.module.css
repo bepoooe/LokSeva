@@ -1,0 +1,22 @@
+/* components/Loading.module.css */
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    animation: smooth-blink 1.5s ease-in-out infinite; /* Smooth blinking */
+  }
+  
+  @keyframes smooth-blink {
+    0%, 100% {
+      opacity: 1; /* Fully visible */
+    }
+    50% {
+      opacity: 0.2; /* Partially transparent */
+    }
+  }
