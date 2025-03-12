@@ -1,11 +1,14 @@
-'use client';
-import Image from "next/image";
-import { useEffect, useState } from 'react';
-import Layout from '@/app/layout';
-import supabase from '@/lib/supabaseClient';
+"use client";
+
+import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
+import Layout from "@/app/layout"; // Ensure correct import path
+import supabase from "@/lib/supabaseClient";
 import { useRouter } from "next/navigation";
 
-type ComplaintStatus = 'Pending' | 'In Progress' | 'Resolved';
+const Image = dynamic(() => import("next/image"), { ssr: false }); // ✅ Fix hydration issue
+
+type ComplaintStatus = "Pending" | "In Progress" | "Resolved";
 
 interface Complaint {
   id: string;
@@ -25,33 +28,32 @@ export default function DashboardPage() {
   const [complaints, setComplaints] = useState<Complaint[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isUpdatingStatus, setIsUpdatingStatus] = useState(false);
-  const [error, setError] = useState('');
+  const [error, setError] = useState("");
 
   useEffect(() => {
-    const authToken = localStorage.getItem('authToken');
-    const municipality = localStorage.getItem('municipality');
-  
+    const authToken = localStorage.getItem("authToken");
+    const municipality = localStorage.getItem("municipality");
+
     if (!authToken || !municipality) {
-      router.push('/admin/login');
+      router.push("/admin/login");
     } else {
       fetchComplaints(municipality);
     }
-  }, [router]); // ✅ Added `router` to dependencies
-  
+  }, [router]); // ✅ Ensures reactivity
 
   const fetchComplaints = async (municipality: string) => {
     try {
       const { data, error } = await supabase
-        .from('complaints')
-        .select('*')
-        .eq('municipality', municipality)
-        .order('created_at', { ascending: false });
+        .from("complaints")
+        .select("*")
+        .eq("municipality", municipality)
+        .order("created_at", { ascending: false });
 
       if (error) throw error;
       setComplaints(data || []);
     } catch (err: any) {
-      console.error('Error fetching complaints:', err);
-      setError(err.message || 'Failed to load complaints');
+      console.error("Error fetching complaints:", err);
+      setError(err.message || "Failed to load complaints");
     } finally {
       setIsLoading(false);
     }
@@ -62,9 +64,9 @@ export default function DashboardPage() {
       setIsUpdatingStatus(true);
 
       const { error } = await supabase
-        .from('complaints')
+        .from("complaints")
         .update({ status: newStatus })
-        .eq('id', id);
+        .eq("id", id);
 
       if (error) throw error;
 
@@ -74,17 +76,17 @@ export default function DashboardPage() {
         )
       );
     } catch (err: any) {
-      console.error('Error updating status:', err);
-      setError(err.message || 'Failed to update status');
+      console.error("Error updating status:", err);
+      setError(err.message || "Failed to update status");
     } finally {
       setIsUpdatingStatus(false);
     }
   };
 
   const handleLogout = () => {
-    localStorage.removeItem('authToken');
-    localStorage.removeItem('municipality');
-    router.push('/admin/login');
+    localStorage.removeItem("authToken");
+    localStorage.removeItem("municipality");
+    router.push("/admin/login");
   };
 
   if (isLoading) {
@@ -133,11 +135,11 @@ export default function DashboardPage() {
                       </h3>
                       <span
                         className={`px-3 py-1 rounded-full text-sm font-medium ${
-                          complaint.status === 'Pending'
-                            ? 'bg-yellow-100 text-yellow-700'
-                            : complaint.status === 'In Progress'
-                            ? 'bg-blue-100 text-blue-700'
-                            : 'bg-green-100 text-green-700'
+                          complaint.status === "Pending"
+                            ? "bg-yellow-100 text-yellow-700"
+                            : complaint.status === "In Progress"
+                            ? "bg-blue-100 text-blue-700"
+                            : "bg-green-100 text-green-700"
                         }`}
                       >
                         {complaint.status}
@@ -147,11 +149,11 @@ export default function DashboardPage() {
                     {/* Complaint Details */}
                     <p className="mt-4 text-gray-600">{complaint.description}</p>
                     <p className="mt-2 text-sm text-gray-500">
-                      <span className="font-medium">Filed on:</span>{' '}
+                      <span className="font-medium">Filed on:</span>{" "}
                       {new Date(complaint.created_at).toLocaleDateString()}
                     </p>
                     <p className="mt-1 text-sm text-gray-500">
-                      <span className="font-medium">Location:</span>{' '}
+                      <span className="font-medium">Location:</span>{" "}
                       {complaint.location}
                     </p>
 
@@ -162,6 +164,8 @@ export default function DashboardPage() {
                           src={complaint.image_url}
                           alt="Complaint Image"
                           className="w-full h-48 object-cover rounded-lg border border-gray-200"
+                          width={400}
+                          height={200}
                         />
                       </div>
                     )}
