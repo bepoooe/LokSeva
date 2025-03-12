@@ -48,7 +48,7 @@ const Faq = () => {
   <AccordionItem value="item-1" className='md:mt-[2rem] mt-0' >
     <AccordionTrigger className='text-[1.3rem] font-[600] text-start'>How do I find my municipality and its services?</AccordionTrigger>
     <AccordionContent className='text-[1.1rem] font-[300]'>
-    You can select your municipality from the homepage or the "Know Your Municipality" section to access details on services, contacts, and facilities.
+    You can select your municipality from the homepage or the &quot;Know Your Municipality&quot; section to access details on services, contacts, and facilities.
     </AccordionContent>
   </AccordionItem>
 </Accordion>

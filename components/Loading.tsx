@@ -1,6 +1,7 @@
 // components/Loading.tsx
 import { useEffect, useState } from 'react';
 import styles from './Loading.module.css'; // Create this CSS module for styling
+import Image from "next/image";
 
 const Loading = () => {
   const [blink, setBlink] = useState(false);
@@ -15,7 +16,7 @@ const Loading = () => {
 
   return (
     <div className={styles.loadingContainer}>
-      <img
+      <Image
         src="/logo.png" // Path to your logo image
         alt="Loading Logo"
         className={`${styles.logo} ${blink ? styles.blink : ''}`}

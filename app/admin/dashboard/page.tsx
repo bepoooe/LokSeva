@@ -1,8 +1,9 @@
 'use client';
-import { useRouter } from 'next/navigation';
+import Image from "next/image";
 import { useEffect, useState } from 'react';
 import Layout from '@/app/layout';
 import supabase from '@/lib/supabaseClient';
+import { useRouter } from "next/router";
 
 type ComplaintStatus = 'Pending' | 'In Progress' | 'Resolved';
 
@@ -29,13 +30,14 @@ export default function DashboardPage() {
   useEffect(() => {
     const authToken = localStorage.getItem('authToken');
     const municipality = localStorage.getItem('municipality');
-
+  
     if (!authToken || !municipality) {
       router.push('/admin/login');
     } else {
       fetchComplaints(municipality);
     }
-  }, []);
+  }, [router]); // ✅ Added `router` to dependencies
+  
 
   const fetchComplaints = async (municipality: string) => {
     try {
@@ -156,7 +158,7 @@ export default function DashboardPage() {
                     {/* Complaint Image */}
                     {complaint.image_url && (
                       <div className="mt-4">
-                        <img
+                        <Image
                           src={complaint.image_url}
                           alt="Complaint Image"
                           className="w-full h-48 object-cover rounded-lg border border-gray-200"

@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import supabase from '@/lib/supabaseClient';
+import Image from "next/image";
 
 export default function TrackComplaint() {
   const [aadhaarNumber, setAadhaarNumber] = useState('');
@@ -113,7 +114,7 @@ export default function TrackComplaint() {
 
                 {complaint.image_url && (
                   <div className="mt-4">
-                    <img
+                    <Image
                       src={complaint.image_url}
                       alt="Complaint Image"
                       className="w-full h-48 object-cover rounded-lg border border-gray-200"
