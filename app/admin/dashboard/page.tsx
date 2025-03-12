@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useEffect, useState } from 'react';
 import Layout from '@/app/layout';
 import supabase from '@/lib/supabaseClient';
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 type ComplaintStatus = 'Pending' | 'In Progress' | 'Resolved';
 
