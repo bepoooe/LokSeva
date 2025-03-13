@@ -107,12 +107,13 @@ const Header = () => {
 
               {/* Mobile Grievance Redressal Button */}
               <div className="mt-6 flex flex-col items-center text-center gap-2">
-                <Button
-                  className="bg-[#FF7352] md:px-6 md:py-6 px-4 py-4 font-[500] text-[0.93519rem] leading-normal rounded-[10px] w-full"
-                  onClick={handleRedirect}
-                >
-                  Grievance Redressal
-                </Button>
+              <Button
+  className="bg-[#FF7352] text-white md:px-6 md:py-6 px-4 py-4 font-[500] text-[0.93519rem] leading-normal rounded-[10px] w-full"
+  onClick={handleRedirect}
+>
+  Grievance Redressal
+</Button>
+
               </div>
             </div>
           </div>

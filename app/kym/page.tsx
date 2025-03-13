@@ -64,7 +64,7 @@ const KnowYourMunicipality: React.FC = () => {
               value={pincode}
               onChange={(e) => setPincode(e.target.value)}
               className="flex-1 p-3 border-2 border-primary-dark rounded-lg focus:border-accent focus:ring-2 focus:ring-accent/30 transition-all"
-              style={{ backgroundColor: '#E8D4C9' }}
+              style={{ backgroundColor: 'white' }}
             />
             <button
               onClick={handleSearch}

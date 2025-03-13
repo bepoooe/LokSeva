@@ -29,6 +29,7 @@ export default function DashboardPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [isUpdatingStatus, setIsUpdatingStatus] = useState(false);
   const [error, setError] = useState("");
+  const [selectedImage, setSelectedImage] = useState<string | null>(null); // 🔹 State for modal
 
   useEffect(() => {
     const authToken = localStorage.getItem("authToken");
@@ -39,7 +40,7 @@ export default function DashboardPage() {
     } else {
       fetchComplaints(municipality);
     }
-  }, [router]); // ✅ Ensures reactivity
+  }, [router]);
 
   const fetchComplaints = async (municipality: string) => {
     try {
@@ -163,9 +164,10 @@ export default function DashboardPage() {
                         <img
                           src={complaint.image_url}
                           alt="Complaint Image"
-                          className="w-full h-48 object-cover rounded-lg border border-gray-200"
+                          className="w-full h-48 object-cover rounded-lg border border-gray-200 cursor-pointer"
                           width={400}
                           height={200}
+                          onClick={() => setSelectedImage(complaint.image_url)} // 🔹 Open modal on click
                         />
                       </div>
                     )}
@@ -187,9 +189,6 @@ export default function DashboardPage() {
                         <option value="In Progress">In Progress</option>
                         <option value="Resolved">Resolved</option>
                       </select>
-                      {isUpdatingStatus && (
-                        <p className="mt-2 text-sm text-gray-500">Updating...</p>
-                      )}
                     </div>
                   </div>
                 ))
@@ -197,6 +196,13 @@ export default function DashboardPage() {
             </div>
           </div>
         </div>
+
+        {/* Image Modal */}
+        {selectedImage && (
+          <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70" onClick={() => setSelectedImage(null)}>
+            <img src={selectedImage} alt="Complaint Image" className="max-w-3xl max-h-[90vh] rounded-lg shadow-lg" />
+          </div>
+        )}
       </div>
     </Layout>
   );

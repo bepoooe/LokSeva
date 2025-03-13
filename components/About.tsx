@@ -5,7 +5,8 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="w-full ">
+    <section className="w-full mt-16 md:mt-32">
+
       <main className="max-w-[90rem] mx-auto md:py-[150px] py-8 md:px-14 px-4 flex flex-col md:flex-row sm:flex-col md:gap-[110px] gap-8">
         <div><Image
             src="/about.png"
@@ -36,7 +37,7 @@ const About = () => {
           <p className="md:text-[1.1rem] text-[1rem] font-[400] leading-[185%] pcolor mt-[1.31rem]">
             • To ensuremunicipal reforms and systematic planning system towards improved urban governance
           </p>
-          <Link href="#contact-section" passHref>
+          <Link href="/kym" passHref>
           <Button
             className="borderbutton2 bg-[#FF7352] md:px-12 md:py-8 py-7 font-[700] text-[0.93519rem] leading-[150%] rounded-[10px] md:mt-[3rem] mt-8 w-full md:w-auto"
           >

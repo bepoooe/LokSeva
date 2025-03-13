@@ -18,7 +18,7 @@ const Smile = () => {
           <p className="md:text-[1.25rem] text-[1rem] font-[400] leading-[185%] pcolor mt-[1.31rem]">
           The campaign showcases West Bengal&apos;s rapid progress in infrastructure, economy, social welfare, and governance, promoting development, empowerment, innovation, and improved quality of life for citizens.
           </p>
-          <Link href="#contact-section" passHref>
+          <Link href="/login" passHref>
           <Button
             className="borderbutton2 bg-[#FF7352] md:px-12 md:py-8 py-7 font-[800] text-[0.93519rem] leading-[150%] rounded-[10px] md:mt-[3rem] mt-8 w-full md:w-auto"
           >

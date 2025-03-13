@@ -16,7 +16,7 @@ const Loading = () => {
 
   return (
     <div className={styles.loadingContainer}>
-      <Image
+      <img
         src="/logo.png" // Path to your logo image
         alt="Loading Logo"
         className={`${styles.logo} ${blink ? styles.blink : ''}`}
