@@ -114,11 +114,11 @@ export default function TrackComplaint() {
 
                 {complaint.image_url && (
                   <div className="mt-4">
-                    <Image
-                      src={complaint.image_url}
-                      alt="Complaint Image"
-                      className="w-full h-48 object-cover rounded-lg border border-gray-200"
-                    />
+                    <img
+  src={complaint.image_url}
+  alt="Complaint Image"
+  className="w-full h-48 object-cover rounded-lg border border-gray-200"
+/>
                   </div>
                 )}
               </div>
