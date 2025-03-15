@@ -122,7 +122,7 @@ const Header = () => {
         {/* Desktop Grievance Redressal Button */}
         <div className="hidden sm:block">
           <Button
-            className="bg-[#FF7352] md:px-6 md:py-6 px-4 py-4 font-[500] text-[0.93519rem] leading-normal rounded-[10px] relative overflow-hidden before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-white/20 before:opacity-0 before:transition-opacity before:duration-700 before:animate-shine hover:before:opacity-100"
+            className="bg-[#FF7352] text-white md:px-6 md:py-6 px-4 py-4 font-[500] text-[0.93519rem] leading-normal rounded-[10px] relative overflow-hidden before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-white/20 before:opacity-0 before:transition-opacity before:duration-700 before:animate-shine hover:before:opacity-100"
             onClick={handleRedirect}
           >
             Grievance Redressal
