@@ -57,7 +57,7 @@ const HomeSection = () => {
         <div className="md:w-1/2  w-full flex justify-center items-center ">
           <Image
 
-            src="/hero.png"
+            src="/hero 2.png"
             alt="hero"
             width={769}
             height={865}
