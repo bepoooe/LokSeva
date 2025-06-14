@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LokSeva – Digital Municipal Services Platform
 
-## Getting Started
+A comprehensive web platform enabling citizens to access municipal services, file grievances, and track issues across West Bengal municipalities.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Grievance Filing System**
+  - Submit complaints with location tracking
+  - Upload images for better issue documentation
+  - Track complaint status using Aadhaar number
+  - Real-time status updates
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Municipal Services**
+  - Access to government welfare schemes information
+  - Directory of municipal contacts
+  - Emergency helplines
+  - Police station contacts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Administrative Dashboard**
+  - Municipality-specific complaint management
+  - Real-time complaint status updates
+  - Secure admin authentication
+  - Complaint tracking and resolution
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Directory Services**
+  - Comprehensive list of West Bengal municipalities
+  - Emergency contact numbers
+  - KMC specific helplines
+  - Police station directory
 
-## Learn More
+## 🛠️ Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**
+  - Next.js 14
+  - TypeScript
+  - Tailwind CSS
+  - Radix UI Components
+  - Framer Motion
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Backend**
+  - Supabase (Database & Authentication)
+  - Next.js API Routes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Key Libraries**
+  - react-hook-form
+  - zod (validation)
+  - embla-carousel
+  - lucide-react
 
-## Deploy on Vercel
+## 🚀 Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/bepoooe/LokSeva.git
+   cd LokSeva
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+   Create a `.env.local` file with your Supabase credentials:
+   ```
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+## 📱 Key Features Breakdown
+
+### Citizen Portal
+- File grievances with location tracking
+- Upload supporting images
+- Track complaint status
+- Access welfare scheme information
+
+### Administrative Interface
+- Secure login system
+- Real-time complaint management
+- Status updates
+- Municipality-specific dashboards
+
+### Information Directory
+- Emergency contacts
+- Municipal helplines
+- Police station contacts
+- Government scheme details
+
+## 🌿 Government Schemes
+
+- Gatidhara (Transport sector self-employment)
+- Kanyashree (Girl child welfare)
+- Sabuj Sathi (Bicycle distribution)
+- Akansha (Affordable housing)
+- Various other welfare schemes
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- West Bengal Municipal Corporation
+- All participating municipalities
+- Emergency services departments
+- Police departments across West Bengal
